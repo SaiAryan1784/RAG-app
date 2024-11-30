@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rag-app"
+version = "0.1.0"
+description = ""
+authors = ["SaiAryan1784 <saiaryan.goswami1784@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-huggingface = "^0.1.0"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.3"
+langchain = "^0.3.4"
+unstructured = "^0.16.1"
+chromadb = "^0.5.15"
+huggingface = "^0.0.1"
+tiktoken = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
